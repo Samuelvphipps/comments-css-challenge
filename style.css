@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(239, 57%, 85%);
+}
+
+.comment {
+    background-color: white;
+    border: 1px solid hsl(211, 10%, 45%);
+    width: 80%;
+    margin: 2em auto;
+    padding: 15px;
+    display: flex;
+}
+
+.col-1 {
+    padding:15px;
+    margin: auto;
+    margin-right: 1em;
+} 
+
+.votes{
+    text-align: center;
+}
+
+.col-2 {
+    flex: 1;  
+}
+
+.profileInfo{
+    display: grid;
+    margin-right: 0%;
+    grid-template-columns: 70px 100px 20% 40%;
+}
+.profilePic{
+    min-width: fit-content;
+}
+
+.date{
+    color:hsl(211, 10%, 45%);
+    display:grid;
+}
+.name{
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+}
+.reply{
+    text-align: right;
+    display: grid;
+}
+.replyText{
+    color:hsl(238, 40%, 52%);
+    padding: 10px;
+}
+.replyBtn{
+    background-color: white;
+    border:0px;
+}
+.replyBtn>svg{
+    fill:#5357B6
+}
+.replyBtn:hover>svg{
+    fill:hsl(239, 57%, 85%)
+}
+.replyBtn:hover>span{
+    color:hsl(239, 57%, 85%);
+}
+/* .replyBtn:hover>svg{
+    color:hsl(239, 57%, 85%);
+} */
+/* /* span{
+    display: inline-block;
+    width: fit-content;
+} */
+/* 
+.name{
+    float:left;
+}  */
+
+
+
+/* 
+Send Btn: hsl(238, 40%, 52%)
+delete Btn: hsl(358, 79%, 66%)
+delete btn click:  hsl(357, 100%, 86%)
+
+*/
