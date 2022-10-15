@@ -98,6 +98,7 @@ body{
 .replyText{
     color:hsl(238, 40%, 52%);
     padding: 10px;
+    font-weight: bold;
 }
 .replyBtn{
     background-color: white;
@@ -115,6 +116,27 @@ body{
     color:hsl(239, 57%, 85%);
 }
 
+
+.deleteText{
+    color:hsl(358, 79%, 66%);
+    padding: 10px;
+    font-weight: bold;
+}
+.deleteBtn{
+    background-color: white;
+    border:0px;
+}
+.deleteBtn>svg{
+    fill:hsl(358, 79%, 66%)
+}
+.deleteBtn:hover>svg{
+    cursor: pointer;
+    fill:hsl(357, 100%, 86%)
+}
+.deleteBtn:hover>span{
+    cursor: pointer;
+    color:hsl(357, 100%, 86%);
+}
 /* .replyBtn:hover>svg{
     color:hsl(239, 57%, 85%);
 } */
