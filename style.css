@@ -59,9 +59,56 @@ body{
 
 .replyContainer{
     margin-left: 3.5em;
+    margin-right: 1em;
     border-left: 2px solid hsla(239, 57%, 85%, .5);
 }
 
+.commentGrid{
+    display:grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 90px 7fr 1fr;
+}
+#sendBtnAlign{
+    text-align: left;
+}
+#sendBtn{
+    text-align: right;
+    background-color: #5357B6;
+    width:80px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 1.75em;
+    margin-left: -2.25em;
+}
+
+#sendBtn:hover{
+    cursor: pointer;
+    background-color: hsl(239, 57%, 85%);
+}
+
+#addComment{
+    border: 1.5px solid hsla(239, 57%, 85%, .5);
+    border-radius: 10px;
+    height: 200px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+#addComment:hover{
+    cursor: pointer;
+}
+
+#addComment{
+    width:90%;
+    height:90%
+}
 .votes{
     margin: auto;
     text-align: center;
@@ -76,13 +123,13 @@ body{
 .profileInfo{
     display: grid;
     margin-right: 0%;
-    grid-template-columns: 70px 100px 20% 1fr;
+    grid-template-columns: 50px 100px 20% 1fr;
 }
 
 .profileInfoYou{
     display: grid;
     margin-right: 0%;
-    grid-template-columns: 70px 110px 20% 1fr;
+    grid-template-columns: 50px 115px 20% 1fr;
 }
 
 #you{
