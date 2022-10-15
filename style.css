@@ -1,24 +1,53 @@
 body{
-    background-color: hsl(239, 57%, 85%);
+    background-color: hsl(228, 33%, 97%);
 }
 
 .comment {
     background-color: white;
-    border: 1px solid hsl(211, 10%, 45%);
     width: 80%;
-    margin: 2em auto;
+    margin: 2em;
+    margin-right: 1em;
     padding: 15px;
     display: flex;
+    border-radius: 15px;
 }
 
 .col-1 {
-    padding:15px;
+    background-color: hsl(228, 33%, 97%);
+    border-radius: 20px;
+    padding:0px;
     margin: auto;
-    margin-right: 1em;
+    margin-right: 1.5em;
 } 
 
+.upVoteBtn{
+    border-radius: 9px 9px 0 0;
+}
+
+.upVoteBtn, .downVoteBtn {
+    font-size: 18px;
+    font-weight: bold;
+    border:0px;
+    padding:5px;
+    background-color: hsl(228, 33%, 97%);
+    color: #5357B6;
+    
+}
+
+.upVoteBtn:hover, .downVoteBtn:hover{
+    cursor: pointer;
+    color:hsl(239, 57%, 85%)
+} 
+
+.downVoteBtn{
+    border-radius: 0 0 9px 9px;
+}
+
 .votes{
+    margin: auto;
     text-align: center;
+    color: hsl(238, 40%, 52%);
+    font-weight:200;
 }
 
 .col-2 {
@@ -28,7 +57,7 @@ body{
 .profileInfo{
     display: grid;
     margin-right: 0%;
-    grid-template-columns: 70px 100px 20% 40%;
+    grid-template-columns: 70px 100px 20% 1fr;
 }
 .profilePic{
     min-width: fit-content;
@@ -59,11 +88,14 @@ body{
     fill:#5357B6
 }
 .replyBtn:hover>svg{
+    cursor: pointer;
     fill:hsl(239, 57%, 85%)
 }
 .replyBtn:hover>span{
+    cursor: pointer;
     color:hsl(239, 57%, 85%);
 }
+
 /* .replyBtn:hover>svg{
     color:hsl(239, 57%, 85%);
 } */
