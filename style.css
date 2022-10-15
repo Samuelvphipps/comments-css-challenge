@@ -66,7 +66,7 @@ body{
 .commentGrid{
     display:grid;
     grid-template-rows: 150px;
-    grid-template-columns: 90px 7fr 1fr;
+    grid-template-columns: 60px 11fr 1fr;
 }
 #sendBtnAlign{
     text-align: left;
@@ -82,7 +82,7 @@ body{
     border: 0px;
     border-radius: 10px;
     margin-right: 1.75em;
-    margin-left: -2.25em;
+    margin-left: -.75em;
 }
 
 #sendBtn:hover{
@@ -103,6 +103,10 @@ img{
 
 #addComment:hover{
     cursor: pointer;
+}
+
+.commentText{
+    margin: .5em
 }
 
 #addComment{
