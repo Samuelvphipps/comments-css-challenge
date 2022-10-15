@@ -55,31 +55,54 @@
               </button>
             </div>
             <div></div>
-
           </div> 
-        
       </div>
-
       <div class="commentText">
         Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.      
       </div>
-
     </div>
-
   </div>
 
   <!-- Comment #2 -->
+
   <div class="comment">
-    <div class="upVoteDownVote">
-      <img src="./images/icon-plus.svg" alt="upVote">
-      5
-      <img src="./images/icon-minus.svg" alt="downVote">
+
+    <div class="col-1">
+      <button class="upVoteBtn">+</button>
+        <p class="votes">5</p>
+      <button class="downVoteBtn">–</button>
     </div>
-    <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-    maxblagun 
-    2 weeks ago
-    Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
-  </div>  
+
+    <div class="col-2">
+      <div class="profileInfo">
+          <div class="profilePic"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div> 
+          <div class="name">
+            <div></div>
+            <div>maxblagun</div>
+            <div></div>
+          </div>
+          <div class="date">
+            <div></div>
+            <div>2 weeks ago</div>
+            <div></div>
+          </div>
+          <div class="reply">
+            <div></div>
+            <div>
+              <button class="replyBtn">
+                <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z" /></svg>
+                <span class="replyText">Reply</span>
+              </button>
+            </div>
+            <div></div>
+          </div> 
+      </div>
+      <div class="commentText">
+        Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks! 
+      </div>
+    </div>
+  </div>
+
   <!-- Comment #3 (Reply to comment #2) -->
   <div class="reply">
     4
