@@ -28,9 +28,9 @@
   <div class="comment">
 
     <div class="col-1">
-      <button><img src="./images/icon-plus.svg" alt="upVote"></button>
+      <button class="upVoteBtn">+</button>
         <p class="votes">12</p>
-      <button><img src="./images/icon-minus.svg" alt="downVote"></button>
+      <button class="downVoteBtn">–</button>
     </div>
 
     <div class="col-2">
@@ -55,53 +55,145 @@
               </button>
             </div>
             <div></div>
-
           </div> 
-        
       </div>
-
       <div class="commentText">
         Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.      
       </div>
-
     </div>
-
   </div>
 
   <!-- Comment #2 -->
+
   <div class="comment">
-    <div class="upVoteDownVote">
-      <img src="./images/icon-plus.svg" alt="upVote">
-      5
-      <img src="./images/icon-minus.svg" alt="downVote">
+
+    <div class="col-1">
+      <button class="upVoteBtn">+</button>
+        <p class="votes">5</p>
+      <button class="downVoteBtn">–</button>
     </div>
-    <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-    maxblagun 
-    2 weeks ago
-    Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+
+    <div class="col-2">
+      <div class="profileInfo">
+          <div class="profilePic"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div> 
+          <div class="name">
+            <div></div>
+            <div>maxblagun</div>
+            <div></div>
+          </div>
+          <div class="date">
+            <div></div>
+            <div>2 weeks ago</div>
+            <div></div>
+          </div>
+          <div class="reply">
+            <div></div>
+            <div>
+              <button class="replyBtn">
+                <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z" /></svg>
+                <span class="replyText">Reply</span>
+              </button>
+            </div>
+            <div></div>
+          </div> 
+      </div>
+      <div class="commentText">
+        Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks! 
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMENT #3 Replace -->
+  <div class="replyContainer">
+    <div class="commentReply">
+
+      <div class="col-1">
+        <button class="upVoteBtn">+</button>
+          <p class="votes">4</p>
+        <button class="downVoteBtn">–</button>
+      </div>
+
+      <div class="col-2">
+        <div class="profileInfo">
+            <div class="profilePic"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div> 
+            <div class="name">
+              <div></div>
+              <div>ramsesmiron</div>
+              <div></div>
+            </div>
+            <div class="date">
+              <div></div>
+              <div>1 week ago</div>
+              <div></div>
+            </div>
+            <div class="reply">
+              <div></div>
+              <div>
+                <button class="replyBtn">
+                  <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z" /></svg>
+                  <span class="replyText">Reply</span>
+                </button>
+              </div>
+              <div></div>
+            </div> 
+        </div>
+        <div class="commentText">
+          <span class="atYou">@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+        </div>
+      </div>
+    </div>
+  
+  
+    <!-- COMMENT #4 REPLACE -->
+
+    <div class="comment">
+
+      <div class="col-1">
+        <button class="upVoteBtn">+</button>
+          <p class="votes">2</p>
+        <button class="downVoteBtn">–</button>
+      </div>
+
+      <div class="col-2">
+        <div class="profileInfoYou">
+            <div class="profilePic"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div> 
+            <div class="name">
+              <div></div>
+              <div>juliusomo <span id="you">you</span></div>
+              <div></div>
+            </div>
+            <div class="date">
+              <div></div>
+              <div>2 days ago</div>
+              <div></div>
+            </div>
+            <div class="reply">
+              <div></div>
+              <div>
+                <button class="deleteBtn">
+                  <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1.167 12.448c0 .854.7 1.552 1.555 1.552h6.222c.856 0 1.556-.698 1.556-1.552V3.5H1.167v8.948Zm10.5-11.281H8.75L7.773 0h-3.88l-.976 1.167H0v1.166h11.667V1.167Z" /></svg>
+                  <span class="deleteText">Delete</span>
+                </button>
+                <button class="replyBtn">
+                  <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z" /></svg>
+                  <span class="replyText">Reply</span>
+                </button>
+              </div>
+              <div></div>
+            </div> 
+        </div>
+        <div class="commentText">
+          <span class="atYou">@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
+        </div>
+      </div>
+    </div>
   </div>  
-  <!-- Comment #3 (Reply to comment #2) -->
-  <div class="reply">
-    4
-    <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-    ramsesmiron 
-    1 week ago
-    @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
-  </div>
-  <!-- Comment #4 (Reply to comment #2) -->
-  <div class="reply">
-  2
-  <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-  juliusomo 
-  2 days ago
-  @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-  </div>
+  
 
-  <div class="addComment">
-    <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-    <input type="text" id="addComment">
-    <button id="sendBtn">SEND</button>
-
+  <div class="comment commentGrid">
+      <div><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+      <div><textarea placeholder="Add a comment..." type="text" id="addComment"></textarea></div>
+      <div id="sendBtnAlign"><button id="sendBtn">SEND</button></div>
   </div>
 
   <div class="attribution">
